@@ -233,5 +233,4 @@ In the dashboard., Click on Opti in to connect your operator to the Trap
 image
 
 8. Check Node Liveness
-Your node will start producing greeen blocks in the dashboard
-
+Your node will start producing 
