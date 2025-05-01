@@ -235,4 +235,3 @@ image
 8. Check Node Liveness
 Your node will start producing greeen blocks in the dashboard
 
-image
