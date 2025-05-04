@@ -107,8 +107,6 @@ DROSERA_PRIVATE_KEY=xxx drosera apply
 Replace xxx with your EVM wallet privatekey
 Your Trap should be private now with your operator address whitelisted internally.
 
-image
-
 2. Operator CLI
 cd ~
 # Download
