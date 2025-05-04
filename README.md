@@ -162,8 +162,6 @@ docker compose up -d
 6-1-3: Check health
 cd Drosera-Network
 docker compose logs -f
-image
-
 No problem if you are receiveing WARN drosera_services::network::service: Failed to gossip message: InsufficientPeers
 
 6-1-4: Optional Docker commands
