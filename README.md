@@ -222,8 +222,7 @@ sudo systemctl stop drosera
 
 # Restart node
 sudo systemctl restart drosera
-Now running your node using SystemD, you can Jump to step 7.
-7. Opt-in Trap
+
 In the dashboard., Click on Opti in to connect your operator to the Trap
 
 image
