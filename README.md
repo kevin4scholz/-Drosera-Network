@@ -229,4 +229,4 @@ image
 
 8. Check Node Liveness
 sudo apt-get install ca-certificates curl gnupg
-sudo install -m 0755 -d /etc/apt/keyrings
+
