@@ -225,6 +225,3 @@ sudo systemctl restart drosera
 
 In the dashboard., Click on Opti in to connect your operator to the Trap
 
-image
-
-
