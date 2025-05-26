@@ -227,6 +227,4 @@ In the dashboard., Click on Opti in to connect your operator to the Trap
 
 image
 
-8. Check Node Liveness
-sudo apt-get install ca-certificates curl gnupg
 
