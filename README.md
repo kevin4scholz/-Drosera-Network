@@ -220,6 +220,4 @@ image
 # Stop node
 sudo systemctl stop drosera
 
-# Restart node
-sudo systemctl restart drosera
 
