@@ -216,8 +216,4 @@ image
 
 !! No problem if you are receiveing WARN drosera_services::network::service: Failed to gossip message: InsufficientPeers
 
-6-2-4: Optional commands
-# Stop node
-sudo systemctl stop drosera
-
 
