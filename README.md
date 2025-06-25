@@ -210,9 +210,5 @@ sudo systemctl enable drosera
 
 # start systemd
 sudo systemctl start drosera
-6-2-3: Check Node Health
-journalctl -u drosera.service -f
-image
-
 
 
