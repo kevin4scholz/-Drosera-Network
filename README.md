@@ -208,7 +208,5 @@ EOF
 sudo systemctl daemon-reload
 sudo systemctl enable drosera
 
-# start systemd
-sudo systemctl start drosera
 
 
