@@ -200,9 +200,3 @@ ExecStart=$(which drosera-operator) node --db-file-path $HOME/.drosera.db --netw
     --network-external-p2p-address VPS_IP \
     --disable-dnr-confirmation true
 
-[Install]
-WantedBy=multi-user.target
-EOF
-
-
-
