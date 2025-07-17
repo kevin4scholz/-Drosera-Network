@@ -192,11 +192,4 @@ Restart=always
 RestartSec=15
 LimitNOFILE=65535
 ExecStart=$(which drosera-operator) node --db-file-path $HOME/.drosera.db --network-p2p-port 31313 --server-port 31314 \
-    --eth-rpc-url https://ethereum-holesky-rpc.publicnode.com \
-    --eth-backup-rpc-url https://1rpc.io/holesky \
-    --drosera-address 0xea08f7d533C2b9A62F40D5326214f39a8E3A32F8 \
-    --eth-private-key PV_KEY \
-    --listen-address 0.0.0.0 \
-    --network-external-p2p-address VPS_IP \
-    --disable-dnr-confirmation true
-
+  
