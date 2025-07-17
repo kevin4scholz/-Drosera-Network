@@ -203,10 +203,6 @@ ExecStart=$(which drosera-operator) node --db-file-path $HOME/.drosera.db --netw
 [Install]
 WantedBy=multi-user.target
 EOF
-6-2-2: Run Operator
-# reload systemd
-sudo systemctl daemon-reload
-sudo systemctl enable drosera
 
 
 
