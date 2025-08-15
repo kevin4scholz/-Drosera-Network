@@ -186,9 +186,4 @@ sudo tee /etc/systemd/system/drosera.service > /dev/null <<EOF
 Description=drosera node service
 After=network-online.target
 
-[Service]
-User=$USER
-Restart=always
-RestartSec=15
-LimitNOFILE=65535
   
