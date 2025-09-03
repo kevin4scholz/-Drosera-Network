@@ -183,7 +183,5 @@ VPS_IP with your solid vps IP (without anything else)
 if using a local system, then replace vps ip with 0.0.0.0
 sudo tee /etc/systemd/system/drosera.service > /dev/null <<EOF
 [Unit]
-Description=drosera node service
-After=network-online.target
 
   
