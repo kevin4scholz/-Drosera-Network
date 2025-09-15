@@ -215,10 +215,5 @@ Replace Operator_Address with your EVM wallet Public Address between " " symbols
 Your Public Address is your Operator_Address.
 2- Update Trap Configuration:
 
-DROSERA_PRIVATE_KEY=xxx drosera apply
-Replace xxx with your EVM wallet privatekey
-Your Trap should be private now with your operator address whitelisted internally.
-
-2. Operator CLI
 
   
