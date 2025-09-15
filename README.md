@@ -182,5 +182,46 @@ PV_KEY with your privatekey
 VPS_IP with your solid vps IP (without anything else)
 
 
+DROSERA_PRIVATE_KEY=xxx drosera apply
+Replace xxx with your EVM wallet privatekey (Ensure it's funded with Holesky ETH)
+Enter the commamd, when prompted, write ofc and press Enter.
+image
+
+3. Check Trap in Dashboard
+1- Connect your Drosera EVM wallet: https://app.drosera.io/
+
+2- Click on Traps Owned to see your deployed Traps OR search your Trap address.
+
+image
+
+4. Bloom Boost Trap
+Open your Trap on Dashboard and Click on Send Bloom Boost and deposit some Holesky ETH on it.
+
+image
+
+5. Fetch Blocks
+drosera dryrun
+Operator Setup
+1. Whitelist Your Operator
+1- Edit Trap configuration:
+
+cd my-drosera-trap
+nano drosera.toml
+Add the following codes at the bottom of drosera.toml:
+
+private_trap = true
+whitelist = ["Operator_Address"]
+Replace Operator_Address with your EVM wallet Public Address between " " symbols
+Your Public Address is your Operator_Address.
+2- Update Trap Configuration:
+
+DROSERA_PRIVATE_KEY=xxx drosera apply
+Replace xxx with your EVM wallet privatekey
+Your Trap should be private now with your operator address whitelisted internally.
+
+2. Operator CLI
+cd ~
+# Download
+curl -LO https://github.com/drosera-network/releases/releases/download/v1.16.2/drosera-operator-v1.16.2-x86_64-unknown-linux-gnu.tar.gz
 
   
