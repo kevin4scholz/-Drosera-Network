@@ -220,8 +220,5 @@ Replace xxx with your EVM wallet privatekey
 Your Trap should be private now with your operator address whitelisted internally.
 
 2. Operator CLI
-cd ~
-# Download
-curl -LO https://github.com/drosera-network/releases/releases/download/v1.16.2/drosera-operator-v1.16.2-x86_64-unknown-linux-gnu.tar.gz
 
   
