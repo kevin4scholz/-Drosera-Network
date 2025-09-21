@@ -145,8 +145,6 @@ Method 1: Install using Docker
 Method 2: Install using SystemD
 Method 1: Docker
 6-1-1: Configure Docker
-Make sure you have installed Docker in Dependecies step.
-If you are currently running via old systemd method, stop it:
 
 sudo systemctl stop drosera
 sudo systemctl disable drosera
