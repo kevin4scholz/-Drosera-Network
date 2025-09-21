@@ -210,8 +210,6 @@ nano drosera.toml
 Add the following codes at the bottom of drosera.toml:
 
 private_trap = true
-whitelist = ["Operator_Address"]
-Replace Operator_Address with your EVM wallet Public Address between " " symbols
 
 
   
