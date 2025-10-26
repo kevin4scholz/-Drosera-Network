@@ -203,8 +203,6 @@ Operator Setup
 1. Whitelist Your Operator
 1- Edit Trap configuration:
 
-cd my-drosera-trap
-nano drosera.toml
 
 
 
